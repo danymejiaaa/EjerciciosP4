@@ -2,7 +2,7 @@ package ejercicio13;
 import java.util.Scanner;
 public class Ejercicio13 {
     public static void main(String[] args) {
-        Scanner teclado = new Scanner (System.in);
+        Scanner teclado = new Scanner(System.in);
         int fact=1;
         int num=0;
         System.out.println("Introduce numero");
@@ -12,5 +12,4 @@ public class Ejercicio13 {
         }
         System.out.println("El factorial es " + fact);
     }
-    
 }
